@@ -30,6 +30,29 @@
 			</section>
 			<section>
 				<h2>Book a Table</h2>
+				<form>
+					<div>
+						<label for="booking-name">Name</label>
+						<input type="text" id="booking-name" name="name" required>
+					</div>
+					<div>
+						<label for="booking-phone">Phone number</label>
+						<input type="tel" id="booking-phone" name="phone" required>
+					</div>
+					<div>
+						<label for="booking-date">Date</label>
+						<input type="date" id="booking-date" name="date" required>
+					</div>
+					<div>
+						<label for="booking-people">Number of people</label>
+						<input type="number" id="booking-people" name="people" min="1" max="20" required>
+					</div>
+					<div>
+						<label for="booking-notes">Notes</label>
+						<textarea id="booking-notes" name="notes"></textarea>
+					</div>
+					<button type="submit">Book table</button>
+				</form>
 			</section>
 		</main>
 	</body>
